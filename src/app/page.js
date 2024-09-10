@@ -1,11 +1,13 @@
+import Header from "@/components/Homepage/Header";
+import Container from "@/components/Shared/Container";
 
 
 export default function Home() {
   return (
       <main>
-       
-       <h1>Hello next js</h1>
-    
+       <Container>
+        {/* <Header /> */}
+       </Container>
       </main>
   );
 }
