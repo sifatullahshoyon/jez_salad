@@ -3,6 +3,10 @@ import "./globals.css";
 import Navbar from "@/components/Shared/Navbar";
 import Header from "@/components/Homepage/Header";
 import Footer from "@/components/Shared/Footer";
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+
 
 const poppins = Poppins({
   weight: "500",
