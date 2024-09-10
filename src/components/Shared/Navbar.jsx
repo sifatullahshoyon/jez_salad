@@ -36,20 +36,20 @@ const Navbar = () => {
           {/* Menu */}
           <ul className="hidden items-center justify-between gap-10 md:flex">
             <Link href="/">
-              <li className="group flex  cursor-pointer flex-col accent-color font-semibold text-lg">
+              <li className="group flex  cursor-pointer flex-col text-primary-color font-semibold text-lg">
                 Home
                 <span className="mt-[2px] h-[3px] w-[0px] rounded-full bg-primary-color transition-all duration-300 group-hover:w-full"></span>
               </li>
             </Link>
-            <li className="group flex  cursor-pointer flex-col accent-color font-semibold text-lg">
+            <li className="group flex  cursor-pointer flex-col text-accent-color font-semibold text-lg">
               Menu
               <span className="mt-[2px] h-[3px] w-[0px] rounded-full bg-primary-color transition-all duration-300 group-hover:w-full"></span>
             </li>
-            <li className="group flex  cursor-pointer flex-col accent-color font-semibold text-lg">
+            <li className="group flex  cursor-pointer flex-col text-accent-color font-semibold text-lg">
               Contact
               <span className="mt-[2px] h-[3px] w-[0px] rounded-full bg-primary-color transition-all duration-300 group-hover:w-full"></span>
             </li>
-            <li className="group flex  cursor-pointer flex-col accent-color font-semibold text-lg">
+            <li className="group flex  cursor-pointer flex-col text-accent-color font-semibold text-lg">
               About Us
               <span className="mt-[2px] h-[3px] w-[0px] rounded-full bg-primary-color transition-all duration-300 group-hover:w-full"></span>
             </li>

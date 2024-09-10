@@ -71,6 +71,10 @@ body {
   border-radius: 50px;
 }
 
+.subscribe{
+  background-image: url('../../public/assets/images/subscribe.png');
+}
+
 
 @layer utilities {
   .text-balance {

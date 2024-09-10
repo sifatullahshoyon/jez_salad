@@ -5,7 +5,7 @@ import Slider from "../Slider";
 const AboutUs = () => {
   return (
     <section className="py-[100px]">
-      <div className="bg-gradient-to-r from-[#FFF6EA] to-[#FFE8C7] ">
+      <div className="bg-gradient-to-r from-[#FFF6EA] to-[#FFE8C7]">
         <Container>
           <div className="flex flex-row  items-center h-[682px]">
             <div>
