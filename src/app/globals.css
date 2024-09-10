@@ -43,6 +43,35 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.menuOne{
+  background-image: url('../../public/assets/images/menu/menu1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 521px;
+  width: 336px;
+  border-radius: 50px;
+ 
+}
+
+.menuTwo{
+  background-image: url('../../public/assets/images/menu/menu2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 521px;
+  width: 336px;
+  border-radius: 50px;
+}
+
+.menuThree{
+  background-image: url('../../public/assets/images/menu/menu3.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 521px;
+  width: 336px;
+  border-radius: 50px;
+}
+
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
