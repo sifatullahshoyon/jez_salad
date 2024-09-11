@@ -11,7 +11,7 @@ const Header = () => {
       <div className="bg-gradient-to-bl   from-[#FCBA60] absolute h-[500px] w-[1000px] right-0 top-0 -z-30 blur-2xl"></div>
       <div className="md:flex flex flex-col-reverse  md:flex-row justify-center items-center flex-wrap gap-5">
         {/* Content Part */}
-        <div className="pl-5">
+        <div data-aos="fade-right" className="pl-5">
           <p className="lg:h-14 lg:rounded-full sm:rounded-3xl md:rounded-full bg-[#FFF0DC] flex justify-center items-center w-1/4 h-auto lg:w-[213px] text-balance text-base font-semibold text-primary-color mb-[30px] p-2 lg:p-0">
             #1 Best Healthy Salad
           </p>
@@ -48,7 +48,7 @@ const Header = () => {
           </div>
         </div>
         {/* Image Part */}
-        <div>
+        <div data-aos="fade-left">
           <Image
             src={bannerImg}
             alt="banner img"

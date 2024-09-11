@@ -4,7 +4,7 @@ const MenuCard = () => {
   return (
     <>
       <div className="flex justify-between gap-5 mt-[72px] mb-5 flex-wrap">
-        <div className="menuOne">
+        <div className="menuOne hover:scale-110 transition ease-in duration-200">
           <div className="flex flex-col justify-end  items-end h-full">
             <p className="mx-auto text-2xl text-white font-medium">
               Mini Salad Yummy{" "}
@@ -14,7 +14,7 @@ const MenuCard = () => {
             </p>
           </div>
         </div>
-        <div className="menuTwo">
+        <div className="menuTwo hover:scale-110 transition ease-in duration-200">
           <div className="flex flex-col justify-end  items-end h-full">
             <p className="mx-auto text-2xl text-white font-medium">
               Completed Salad{" "}
@@ -24,7 +24,7 @@ const MenuCard = () => {
             </p>
           </div>
         </div>
-        <div className="menuThree">
+        <div className="menuThree hover:scale-110 transition ease-in duration-200">
           <div className="flex flex-col justify-end  items-end h-full">
             <p className="mx-auto text-2xl text-white font-medium">
               Salad Yummy Red{" "}

@@ -53,7 +53,7 @@ const AboutUs = () => {
             </div>
 
             {/* Carousel */}
-            <div className="lg:w-1/2 w-full mt-6 lg:mt-0">
+            <div data-aos="fade-left" className="lg:w-1/2 w-full mt-6 lg:mt-0">
               <Slider swiperRef={swiperRef} />
             </div>
           </div>

@@ -8,7 +8,7 @@ import BtnPrimary from "../Shared/Buttons/BtnPrimary";
 
 const FoodCard = () => {
   return (
-    <div className="flex flex-col md:flex-row justify-between items-center flex-wrap gap-5 ml-5 lg:ml-0">
+    <div data-aos="fade-up" className="flex flex-col md:flex-row justify-between items-center flex-wrap gap-5 ml-5 lg:ml-0">
       {/* Card 1 */}
       <div className="max-w-[350px] space-y-4 rounded-3xl border border-[rgb(255, 240, 218)] bg-white p-6 md:w-[350px] ">
         <Image
