@@ -5,11 +5,13 @@ import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import Image from "next/image";
-import img from "/public/assets/images/icon/iconOne.png";
+import img1 from "/public/assets/images/aboutUs/about1.png";
+import img2 from "/public/assets/images/aboutUs/about2.png";
+import img3 from "/public/assets/images/aboutUs/about3.png";
 
 const Slider = ({ swiperRef }) => {
   return (
-    <div className="relative w-full">
+    <div className="w-full">
       <Swiper
         slidesPerView={1}
         spaceBetween={30}
@@ -22,30 +24,127 @@ const Slider = ({ swiperRef }) => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <div className="max-w-[350px] space-y-4 rounded-lg bg-white p-6 shadow-lg md:w-[350px]">
-            <div>
-              <Image src={img} alt="img" />
+          <div className="flex justify-between gap-5 pr-2 flex-wrap lg:flex-nowrap">
+            <div className="w-[270px] md:w-[350px] rounded-lg bg-white p-6 shadow-lg space-y-4">
+              <div className="flex justify-center ">
+                <Image
+                  src={img1}
+                  alt="img"
+                  width={90}
+                  height={90}
+                  placeholder="blur"
+                  loading="lazy"
+                />
+              </div>
+
+              {/* Card Content */}
+              <div className="relative z-10 grid gap-2 pt-[60px]">
+                {" "}
+                {/* pt to push content down */}
+                <h1 className="text-2xl font-medium text-[#2B2B2B]">
+                  David Ken
+                </h1>
+                <p className="text-sm font-normal text-[#999999]">24 Years</p>
+                <div className="text-base text-balance text-accent-color font-normal">
+                  The salad is fresh!!! Don&apos;t ask about the sauce again,
+                  it&apos;s really delicious, it&apos;s going to be routine. I
+                  recommend this salad to all of you guys! because they really
+                  take care of the quality.
+                </div>
+              </div>
             </div>
-            <div className="grid gap-2">
-              <h1 className="text-lg font-semibold ">Product Name</h1>
-              <p className="text-sm text-gray-500 dark:text-white/60">
-                This is a brief description of the product. It highlights the
-                key features and benefits.
-              </p>
-              <div className="text-lg font-semibold">$99.99</div>
-            </div>
-            <div className="flex gap-4">
-              <button className="rounded-lg bg-slate-800 px-6 py-2 text-[12px] font-semibold text-white duration-300 hover:bg-slate-950 sm:text-sm md:text-base ">
-                Add to Cart
-              </button>
-              <button className="rounded-md border border-black px-4 dark:border-white dark:hover:text-slate-800 dark:hover:bg-white  py-2  duration-300 hover:bg-gray-200">
-                View Details
-              </button>
+            {/* card 2  */}
+            <div className="w-[270px] md:w-[350px] rounded-lg bg-white p-6 shadow-lg space-y-4">
+              <div className="flex justify-center ">
+                <Image
+                  src={img2}
+                  alt="img"
+                  width={90}
+                  height={90}
+                  placeholder="blur"
+                  loading="lazy"
+                />
+              </div>
+
+              {/* Card Content */}
+              <div className="relative z-10 grid gap-2 pt-[60px]">
+                {" "}
+                {/* pt to push content down */}
+                <h1 className="text-2xl font-medium text-[#2B2B2B]">
+                  Jennifer Sina
+                </h1>
+                <p className="text-sm font-normal text-[#999999]">21 Years</p>
+                <div className="text-base text-balance text-accent-color font-normal">
+                  The salad is fresh!!! Don&apos;t ask about the sauce again,
+                  it&apos;s really delicious, it&apos;s going to be routine. I
+                  recommend this salad to all of you guys! because they really
+                  take care of the quality.
+                </div>
+              </div>
             </div>
           </div>
         </SwiperSlide>
-        {/* <SwiperSlide><h1>Slide 2</h1></SwiperSlide> */}
-        {/* <SwiperSlide><h1>Slide 3</h1></SwiperSlide> */}
+        <SwiperSlide>
+          <div className="flex justify-between gap-5 pr-2 flex-wrap lg:flex-nowrap">
+            <div className="w-[270px] md:w-[350px] rounded-lg bg-white p-6 shadow-lg space-y-4">
+              <div className="flex justify-center ">
+                <Image
+                  src={img3}
+                  alt="img"
+                  width={90}
+                  height={90}
+                  placeholder="blur"
+                  loading="lazy"
+                />
+              </div>
+
+              {/* Card Content */}
+              <div className="relative z-10 grid gap-2 pt-[60px]">
+                {" "}
+                {/* pt to push content down */}
+                <h1 className="text-2xl font-medium text-[#2B2B2B]">
+                  Selena Gomez
+                </h1>
+                <p className="text-sm font-normal text-[#999999]">22 Years</p>
+                <div className="text-base text-balance text-accent-color font-normal">
+                  The salad is fresh!!! Don&apos;t ask about the sauce again,
+                  it&apos;s really delicious, it&apos;s going to be routine. I
+                  recommend this salad to all of you guys! because they really
+                  take care of the quality.
+                </div>
+              </div>
+            </div>
+            {/* card 2  */}
+            <div className="w-[270px] md:w-[350px] rounded-lg bg-white p-6 shadow-lg space-y-4">
+              <div className="flex justify-center ">
+                <Image
+                  src={img2}
+                  alt="img"
+                  width={90}
+                  height={90}
+                  placeholder="blur"
+                  loading="lazy"
+                />
+              </div>
+
+              {/* Card Content */}
+              <div className="relative z-10 grid gap-2 pt-[60px]">
+                {" "}
+                {/* pt to push content down */}
+                <h1 className="text-2xl font-medium text-[#2B2B2B]">
+                  Jennifer Sina
+                </h1>
+                <p className="text-sm font-normal text-[#999999]">21 Years</p>
+                <div className="text-base text-balance text-accent-color font-normal">
+                  The salad is fresh!!! Don&apos;t ask about the sauce again,
+                  it&apos;s really delicious, it&apos;s going to be routine. I
+                  recommend this salad to all of you guys! because they really
+                  take care of the quality.
+                </div>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
       </Swiper>
     </div>
   );
